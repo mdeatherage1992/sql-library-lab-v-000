@@ -10,9 +10,9 @@ CREATE TABLE authors(
   name TEXT
 );
 
-CREATE TABLE s(
+CREATE TABLE books(
   id INTEGER PRIMARY KEY,
   title TEXT,
-  author_id INTEGER,
-  sub-genre INTEGER
+  series_id INTEGER,
+  year INTEGER
 );
