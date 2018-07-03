@@ -19,7 +19,7 @@ CREATE TABLE books(
 
 CREATE TABLE characters(
   id INTEGER PRIMARY KEY,
-  title TEXT,
+  name TEXT,
   author_id INTEGER,
   sub-genre INTEGER
 );
